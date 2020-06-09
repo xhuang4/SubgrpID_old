@@ -1,0 +1,44 @@
+citHeader("To cite SubgrpID in publications use:")
+
+citEntry(entry="Article",
+         title = "Patient subgroup identification for clinical drug development",
+         author = personList(person(last="Huang", first="Xin"),
+	                     person(last="Sun", first="Yan"),
+	                     person(last="Trow", first="Paul"),
+	                     person(last="Chatterjee", first="Saptarshi"),
+	                     person(last="Chakravartty", first="Arunava"),
+	                     person(last="Tian", first="Lu"),
+	                     person(last="Devanarayan", first="Viswanath")),
+	 journal = "Statistics in Medicine",
+         year         = "2017",
+         volume       = "doi: 10.1002/sim.7236",
+         number       = "",
+         pages        = "",
+         url          = "",
+         
+         textVersion = 
+         paste("Huang et al. (2017). ", 
+               "Patient subgroup identification for clinical drug development. ",
+               "Statistics in Medicine, doi: 10.1002/sim.7236.",
+               sep=""))
+ 
+ 
+citEntry(entry="Article",
+         title = "A PRIM approach to predictive-signature development for patient stratification",
+         author = personList(person(last="Chen", first="Gong"),
+	                     person(last="Zhong", first="Hua"),
+	                     person(last="Belousov", first="Anton"),
+	                     person(last="Devanarayan", first="Viswanath")),
+	 journal = "Statistics in Medicine",
+         year         = "2015",
+         volume       = "34",
+         number       = "2",
+         pages        = "317-342",
+         url          = "",
+         
+         textVersion = 
+         paste("Chen et al. (2015). ", 
+               "A PRIM approach to predictive-signature development for patient stratification. ",
+               "Statistics in Medicine, 10.1002/sim.6343.",
+               sep=""))
+ 
