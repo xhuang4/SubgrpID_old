@@ -1,0 +1,10 @@
+1. Check missing value to avoid error (implement warning and add imputation options later on)
+2. Create balanced CV folds between arms and across folds
+3. A more robust way of deciding the direction (not affected by outliers): move the direction decision to after cutoff selection
+4. One sided p value: hold for now
+5. "Or" for Seq.BT: identify promising subgroups in negative group: hold for now. treat it as a separate method.
+6. Make CV a general framework
+7. For binary case, handle "perfect separation" properly. hold for now.
+8. Adjust for known covariates (trial stratification variables)
+9. Adding some multivariate pre-filtering options: we can use GRRF, and for T2E response, we can use the minimal depth along with VIMP from Random Survival Forest (RSF) 
+10. One big sheet including all existing csv results
