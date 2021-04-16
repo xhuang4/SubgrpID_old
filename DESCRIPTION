@@ -10,8 +10,7 @@ License: GPL-3
 Depends: R (>= 2.1.0),AIM,
   survival,
   ggplot2,
-  Matrix,
-  optAUCX
+  Matrix
 Imports:
   rpart,
   stats,
