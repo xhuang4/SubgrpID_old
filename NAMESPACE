@@ -2,7 +2,6 @@ export("SubgrpID")
 export("filter")
 import(survival)
 import(AIM)
-import(optAUCX)
 import(ggplot2)
 import(Matrix)
 importFrom("stats", "as.formula", "binomial", "coef", "cor", "glm",
